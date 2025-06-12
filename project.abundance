@@ -11,8 +11,8 @@
         {
             "atomType": "Output",
             "name": "Output",
-            "x": 0.973639455782313,
-            "y": 0.4989154013015184,
+            "x": 0.9659863945578232,
+            "y": 0.4902386117136659,
             "uniqueID": "3118e686-0443-4508-869b-f9f327460a4f",
             "ioValues": [
                 {
@@ -147,8 +147,8 @@
         {
             "atomType": "Molecule",
             "name": "InnerHub",
-            "x": 0.14285714285714285,
-            "y": 0.2841648590021692,
+            "x": 0.13945578231292516,
+            "y": 0.2754880694143167,
             "uniqueID": "54ac1c32-ba17-4599-94ce-426bdbf0a2d8",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -309,7 +309,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 7.5
+                            "ioValue": 5.5
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -482,8 +482,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.266156462585034,
-                    "y": 0.23861171366594364,
+                    "x": 0.2695578231292517,
+                    "y": 0.22776572668112796,
                     "uniqueID": "7e594fd8-547e-460e-b00c-ee7212a3c973",
                     "ioValues": [
                         {
@@ -492,7 +492,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 15
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -510,7 +510,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 15
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -651,30 +651,46 @@
             "unionType": "Fusion"
         },
         {
-            "atomType": "Gcode",
-            "name": "Gcode",
-            "x": 0.5170068027210885,
-            "y": 0.7939262472885033,
-            "uniqueID": "45e93a25-df72-4fc1-bfd2-39246d1de1ec",
-            "ioValues": [
+            "atomType": "Molecule",
+            "name": "Spokes",
+            "x": 0.14370748299319727,
+            "y": 0.6464208242950108,
+            "uniqueID": "acf06422-b4c4-40aa-84bb-3cae13dd364a",
+            "ioValues": [],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
                 {
-                    "name": "geometry",
-                    "ioValue": "92afbbc8-df4a-47f6-baa9-627422131a81"
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "d5b725ee-2e23-457b-a208-d2991d77885e",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
-                    "name": "tool size",
-                    "ioValue": 6.35
-                },
-                {
-                    "name": "passes",
-                    "ioValue": 6
-                },
-                {
-                    "name": "speed",
-                    "ioValue": 500
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.10884353741496598,
+                    "y": 0.3080260303687636,
+                    "uniqueID": "75f1fe9f-1915-40ba-9b21-82ab7b63fbbb",
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
                 }
             ],
-            "description": "Generates Maslow gcode from the input geometry."
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
@@ -726,13 +742,6 @@
             "ap2Primary": false,
             "ap1ID": "92afbbc8-df4a-47f6-baa9-627422131a81",
             "ap2ID": "3118e686-0443-4508-869b-f9f327460a4f"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": "92afbbc8-df4a-47f6-baa9-627422131a81",
-            "ap2ID": "45e93a25-df72-4fc1-bfd2-39246d1de1ec"
         }
     ],
     "unitsKey": "MM",
