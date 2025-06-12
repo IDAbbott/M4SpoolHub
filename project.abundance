@@ -635,7 +635,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": ""
+                    "ioValue": "a8528a90-783e-43dc-93c8-f99d1437f7ae"
                 },
                 {
                     "name": "Resolution (dpi)",
@@ -717,6 +717,13 @@
             "ap2Primary": false,
             "ap1ID": "a8528a90-783e-43dc-93c8-f99d1437f7ae",
             "ap2ID": "3118e686-0443-4508-869b-f9f327460a4f"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": "a8528a90-783e-43dc-93c8-f99d1437f7ae",
+            "ap2ID": "63876f69-ae70-40ba-b17e-eec598f4f208"
         }
     ],
     "unitsKey": "MM",
