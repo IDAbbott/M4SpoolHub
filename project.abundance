@@ -670,19 +670,14 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "d5b725ee-2e23-457b-a208-d2991d77885e",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "02e1bc5c-c631-4280-a88b-56d79dc9dc60"
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.10884353741496598,
-                    "y": 0.3080260303687636,
+                    "x": 0.11054421768707483,
+                    "y": 0.30585683297180044,
                     "uniqueID": "75f1fe9f-1915-40ba-9b21-82ab7b63fbbb",
                     "ioValues": [
                         {
@@ -709,7 +704,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 24
+                            "ioValue": 26
                         },
                         {
                             "name": "yDist",
@@ -739,6 +734,192 @@
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.11224489795918369,
+                    "y": 0.4837310195227766,
+                    "uniqueID": "15ed6fe9-7d9a-43c4-91c2-0ed95e4a8813",
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 28
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 7
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.21258503401360546,
+                    "y": 0.46854663774403477,
+                    "uniqueID": "304660c4-28e3-49d7-89a0-0517ec2b6f91",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "15ed6fe9-7d9a-43c4-91c2-0ed95e4a8813"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": -26
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.3137755102040816,
+                    "y": 0.4772234273318873,
+                    "uniqueID": "ebcd95f8-d672-4f1e-ac12-db720885cbf6",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "304660c4-28e3-49d7-89a0-0517ec2b6f91"
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 15
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.11224489795918369,
+                    "y": 0.6507592190889371,
+                    "uniqueID": "4b9339ef-16ad-441b-aa1a-4e78a09382f1",
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 28
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 7
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.21683673469387757,
+                    "y": 0.6334056399132321,
+                    "uniqueID": "491bc349-6cf1-45ed-96f3-8269720ef48d",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "4b9339ef-16ad-441b-aa1a-4e78a09382f1"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 26
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.3214285714285714,
+                    "y": 0.6442516268980477,
+                    "uniqueID": "dfa5fd63-bd9d-4b76-a452-74eaa646ce01",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "491bc349-6cf1-45ed-96f3-8269720ef48d"
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 15
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.11819727891156462,
+                    "y": 0.8156182212581345,
+                    "uniqueID": "15b86afa-16d0-4d0c-8a33-10daae9d3440",
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 28
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 7
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.2295918367346939,
+                    "y": 0.8047722342733189,
+                    "uniqueID": "b1db0e46-e956-40a8-bc2b-187f72af52c3",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "15b86afa-16d0-4d0c-8a33-10daae9d3440"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 26
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.3443877551020408,
+                    "y": 0.7982646420824294,
+                    "uniqueID": "ddd186fa-4c13-4821-ac07-9c576b977870",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "b1db0e46-e956-40a8-bc2b-187f72af52c3"
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 15
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 }
             ],
             "allConnectors": [
@@ -758,10 +939,45 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": "02e1bc5c-c631-4280-a88b-56d79dc9dc60",
-                    "ap2ID": "d5b725ee-2e23-457b-a208-d2991d77885e"
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "15ed6fe9-7d9a-43c4-91c2-0ed95e4a8813",
+                    "ap2ID": "304660c4-28e3-49d7-89a0-0517ec2b6f91"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "304660c4-28e3-49d7-89a0-0517ec2b6f91",
+                    "ap2ID": "ebcd95f8-d672-4f1e-ac12-db720885cbf6"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "4b9339ef-16ad-441b-aa1a-4e78a09382f1",
+                    "ap2ID": "491bc349-6cf1-45ed-96f3-8269720ef48d"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "491bc349-6cf1-45ed-96f3-8269720ef48d",
+                    "ap2ID": "dfa5fd63-bd9d-4b76-a452-74eaa646ce01"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "15b86afa-16d0-4d0c-8a33-10daae9d3440",
+                    "ap2ID": "b1db0e46-e956-40a8-bc2b-187f72af52c3"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "b1db0e46-e956-40a8-bc2b-187f72af52c3",
+                    "ap2ID": "ddd186fa-4c13-4821-ac07-9c576b977870"
                 }
             ],
             "fileTypeVersion": 1,
