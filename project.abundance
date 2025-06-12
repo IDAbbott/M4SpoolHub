@@ -651,16 +651,30 @@
             "unionType": "Fusion"
         },
         {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.09098639455782313,
-            "y": 0.6442516268980477,
-            "uniqueID": "215050b4-dcf7-450d-af81-0dd2128ef862",
-            "ioValues": [],
-            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "Sled.step",
-            "type": "STEP",
-            "SVGwidth": 10
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.5170068027210885,
+            "y": 0.7939262472885033,
+            "uniqueID": "45e93a25-df72-4fc1-bfd2-39246d1de1ec",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "92afbbc8-df4a-47f6-baa9-627422131a81"
+                },
+                {
+                    "name": "tool size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "passes",
+                    "ioValue": 6
+                },
+                {
+                    "name": "speed",
+                    "ioValue": 500
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry."
         }
     ],
     "allConnectors": [
@@ -701,6 +715,13 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": "92afbbc8-df4a-47f6-baa9-627422131a81",
+            "ap2ID": "63876f69-ae70-40ba-b17e-eec598f4f208"
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": "92afbbc8-df4a-47f6-baa9-627422131a81",
@@ -711,7 +732,7 @@
             "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": "92afbbc8-df4a-47f6-baa9-627422131a81",
-            "ap2ID": "63876f69-ae70-40ba-b17e-eec598f4f208"
+            "ap2ID": "45e93a25-df72-4fc1-bfd2-39246d1de1ec"
         }
     ],
     "unitsKey": "MM",
