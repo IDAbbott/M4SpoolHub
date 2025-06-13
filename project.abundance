@@ -25,8 +25,8 @@
         {
             "atomType": "Molecule",
             "name": "InnerHub",
-            "x": 0.13945578231292516,
-            "y": 0.2754880694143167,
+            "x": 0.13160377358490566,
+            "y": 0.3603960396039604,
             "uniqueID": "54ac1c32-ba17-4599-94ce-426bdbf0a2d8",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -49,8 +49,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.10442176870748299,
-                    "y": 0.336117136659436,
+                    "x": 0.10235849056603774,
+                    "y": 0.2673267326732673,
                     "uniqueID": "6b901460-f569-4e7d-abbd-6810f6809101",
                     "ioValues": [
                         {
@@ -69,7 +69,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 22
+                            "ioValue": 22.3
                         }
                     ],
                     "description": "Creates a new circle."
@@ -77,8 +77,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.397108843537415,
-                    "y": 0.26247288503253796,
+                    "x": 0.39669811320754716,
+                    "y": 0.2811881188118812,
                     "uniqueID": "bc66d8f9-887c-46ac-8394-27fbbbb679ac",
                     "ioValues": [
                         {
