@@ -937,8 +937,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
+                    "x": 0.9676870748299319,
+                    "y": 0.5075921908893709,
                     "uniqueID": "4727d9ff-eb3a-4faa-81f9-502f7ba6deb5",
                     "ioValues": [
                         {
@@ -993,7 +993,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 5.5
+                            "ioValue": 2.5
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1228,8 +1228,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.532312925170068,
-            "y": 0.7418655097613883,
+            "x": 0.528061224489796,
+            "y": 0.7396963123644252,
             "uniqueID": "89173077-8434-48d3-91ad-0192305c8739",
             "ioValues": [
                 {
