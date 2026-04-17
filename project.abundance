@@ -135,7 +135,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "fuse-extrude-cut-circle-13-circle-11.15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-extrude-cut-circle-13-circle-9-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
+            "geometry": "fuse-extrude-cut-circle-13-circle-11.15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-extrude-cut-circle-13-circle-5.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
             "tags": [],
             "bom": [],
             "plane": {
@@ -291,8 +291,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.22108843537414966,
-          "y": 0.6008676789587852,
+          "x": 0.23447069116360453,
+          "y": 0.611353711790393,
           "uniqueID": "b5b9f455-c19c-4fe6-9de7-6c36a2231793",
           "ioValues": [
             {
@@ -323,8 +323,8 @@
         },
         {
           "atomType": "Fusion",
-          "x": 0.5193929173693086,
-          "y": 0.3981042654028436,
+          "x": 0.5223097112860893,
+          "y": 0.3755458515283843,
           "uniqueID": "db5dcbf9-0a34-4a68-b0db-b24ec102f91b",
           "ioValues": [
             {
