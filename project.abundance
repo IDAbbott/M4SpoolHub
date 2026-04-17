@@ -279,13 +279,13 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.10714285714285714,
-          "y": 0.6876355748373102,
+          "x": 0.10411198600174978,
+          "y": 0.6768558951965065,
           "uniqueID": "6124bbe2-8d33-4d76-a058-9eb12e0058bf",
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 18
+              "ioValue": 11.2
             }
           ]
         },
@@ -357,7 +357,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "extrude-cut-circle-13-circle-9-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
+                "geometry": "extrude-cut-circle-13-circle-5.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
