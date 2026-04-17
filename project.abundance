@@ -384,7 +384,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-extrude-cut-circle-11.1-circle-7.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-75-0-0",
+                "geometry": "move-extrude-cut-circle-11.1-circle-7.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-75-0-0",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -439,7 +439,7 @@
             },
             {
               "name": "height",
-              "ioValue": 4
+              "ioValue": 5
             }
           ]
         },
