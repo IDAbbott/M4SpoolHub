@@ -44,8 +44,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.8414839797639123,
-      "y": 0.7085308056872038,
+      "x": 0.8915135608048994,
+      "y": 0.16812227074235805,
       "uniqueID": "63876f69-ae70-40ba-b17e-eec598f4f208",
       "ioValues": [
         {
@@ -135,7 +135,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "fuse-extrude-cut-circle-13-circle-11.15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-extrude-cut-circle-13-circle-5.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
+            "geometry": "fuse-extrude-cut-circle-13-circle-11.15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-extrude-cut-circle-13-circle-5.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
             "tags": [],
             "bom": [],
             "plane": {
@@ -191,8 +191,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.12984822934232715,
-      "y": 0.5308056872037915,
+      "x": 0.1321084864391951,
+      "y": 0.5218340611353712,
       "uniqueID": "54ac1c32-ba17-4599-94ce-426bdbf0a2d8",
       "name": "InnerHub",
       "topLevel": false,
@@ -285,7 +285,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 11.2
+              "ioValue": 11.5
             }
           ]
         },
@@ -357,7 +357,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "extrude-cut-circle-13-circle-5.6-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
+                "geometry": "extrude-cut-circle-13-circle-5.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -439,7 +439,7 @@
       "x": 0.13322091062394603,
       "y": 0.3080568720379147,
       "uniqueID": "29239c58-1357-4c28-a3e4-ea0ad1937612",
-      "name": "OuterHub",
+      "name": "OuterHubWall",
       "topLevel": false,
       "allAtoms": [
         {
@@ -857,10 +857,10 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.12900505902192244,
-      "y": 0.15402843601895735,
+      "x": 0.1347331583552056,
+      "y": 0.15283842794759825,
       "uniqueID": "id-287",
-      "name": "OuterHub",
+      "name": "OuterHubLip",
       "topLevel": false,
       "allAtoms": [
         {
