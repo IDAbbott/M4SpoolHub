@@ -496,52 +496,6 @@
           "resolution": 96,
           "importIndex": 0,
           "partName": "Washer"
-        },
-        {
-          "atomType": "Extrude",
-          "x": 0.3592314118629908,
-          "y": 0.8949671772428883,
-          "uniqueID": "id-704",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 2.5
-            }
-          ]
-        },
-        {
-          "atomType": "Export",
-          "x": 0.46532999164578115,
-          "y": 0.8840262582056894,
-          "uniqueID": "id-708",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "File Type",
-              "ioValue": "STEP",
-              "currentEquation": "STEP"
-            },
-            {
-              "name": "Resolution (dpi)",
-              "ioValue": 96
-            },
-            {
-              "name": "Part Name",
-              "ioValue": "spacer",
-              "currentEquation": "spacer"
-            }
-          ],
-          "type": "STEP",
-          "resolution": 96,
-          "importIndex": 0,
-          "partName": "spacer"
         }
       ],
       "allConnectors": [
@@ -607,11 +561,6 @@
         },
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-424",
-          "ap2ID": "id-704"
-        },
-        {
-          "ap2Name": "geometry",
           "ap1ID": "id-428",
           "ap2ID": "id-432"
         },
@@ -624,11 +573,6 @@
           "ap2Name": "Shape 3",
           "ap1ID": "id-432",
           "ap2ID": "db5dcbf9-0a34-4a68-b0db-b24ec102f91b"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-704",
-          "ap2ID": "id-708"
         }
       ],
       "fileTypeVersion": 1
