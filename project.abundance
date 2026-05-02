@@ -191,8 +191,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.1321084864391951,
-      "y": 0.5218340611353712,
+      "x": 0.12698412698412698,
+      "y": 0.5229759299781181,
       "uniqueID": "54ac1c32-ba17-4599-94ce-426bdbf0a2d8",
       "name": "InnerHub",
       "topLevel": false,
@@ -317,7 +317,7 @@
             },
             {
               "name": "height",
-              "ioValue": 3
+              "ioValue": 6.45
             }
           ]
         },
@@ -357,7 +357,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "extrude-cut-circle-13-circle-7.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3",
+                "geometry": "extrude-cut-circle-13-circle-7.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6.45",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -384,7 +384,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-extrude-cut-circle-11.1-circle-7.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-75-0-0",
+                "geometry": "move-extrude-cut-circle-11.1-circle-7.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6.45-75-0-0",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -439,7 +439,7 @@
             },
             {
               "name": "height",
-              "ioValue": 5
+              "ioValue": 6.45
             }
           ]
         },
