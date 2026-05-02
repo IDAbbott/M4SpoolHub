@@ -135,7 +135,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "fuse-fuse-extrude-cut-circle-13-circle-11.25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-extrude-cut-circle-13-circle-7.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3-move-extrude-cut-circle-11.1-circle-7.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-75-0-0",
+            "geometry": "fuse-fuse-extrude-cut-circle-13-circle-11.25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-extrude-cut-circle-13-circle-7.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6.45-move-extrude-cut-circle-11.05-circle-7.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6.45-75-0-0",
             "tags": [],
             "bom": [],
             "plane": {
