@@ -429,14 +429,14 @@
             },
             {
               "name": "Part Name",
-              "ioValue": "Washer",
-              "currentEquation": "Washer"
+              "ioValue": "RollerWasher",
+              "currentEquation": "RollerWasher"
             }
           ],
           "type": "STEP",
           "resolution": 96,
           "importIndex": 0,
-          "partName": "Washer"
+          "partName": "RollerWasher"
         },
         {
           "atomType": "Move",
