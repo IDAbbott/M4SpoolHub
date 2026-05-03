@@ -217,7 +217,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 10
+              "ioValue": 26
             }
           ]
         },
@@ -235,8 +235,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.2630691399662732,
-          "y": 0.24644549763033177,
+          "x": 0.35756056808688386,
+          "y": 0.17286652078774617,
           "uniqueID": "bc66d8f9-887c-46ac-8394-27fbbbb679ac",
           "ioValues": [
             {
@@ -330,14 +330,14 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "extrude-cut-circle-5-circle-4.1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18",
+                "geometry": "extrude-move-circle-13-0-0-0-{\"origin\":[0,0,5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
                   "origin": [
                     0,
                     0,
-                    0
+                    5
                   ],
                   "xDir": [
                     1,
@@ -357,7 +357,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "extrude-cut-circle-5-circle-4.15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6.5",
+                "geometry": "extrude-cut-circle-13-circle-4.15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6.5",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -496,18 +496,44 @@
           "resolution": 96,
           "importIndex": 0,
           "partName": "Washer"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.24143692564745195,
+          "y": 0.30196936542669583,
+          "uniqueID": "id-688",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 5
+            }
+          ]
         }
       ],
       "allConnectors": [
         {
           "ap2Name": "retain",
           "ap1ID": "6b901460-f569-4e7d-abbd-6810f6809101",
-          "ap2ID": "bc66d8f9-887c-46ac-8394-27fbbbb679ac"
+          "ap2ID": "b5b9f455-c19c-4fe6-9de7-6c36a2231793"
         },
         {
-          "ap2Name": "retain",
+          "ap2Name": "geometry",
           "ap1ID": "6b901460-f569-4e7d-abbd-6810f6809101",
-          "ap2ID": "b5b9f455-c19c-4fe6-9de7-6c36a2231793"
+          "ap2ID": "id-688"
         },
         {
           "ap2Name": "remove",
@@ -573,6 +599,11 @@
           "ap2Name": "Shape 3",
           "ap1ID": "id-432",
           "ap2ID": "db5dcbf9-0a34-4a68-b0db-b24ec102f91b"
+        },
+        {
+          "ap2Name": "retain",
+          "ap1ID": "id-688",
+          "ap2ID": "bc66d8f9-887c-46ac-8394-27fbbbb679ac"
         }
       ],
       "fileTypeVersion": 1
