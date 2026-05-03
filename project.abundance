@@ -81,7 +81,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "extrude-cut-circle-43-circle-39-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
+            "geometry": "extrude-cut-circle-43-circle-39-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.4",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -135,7 +135,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "fuse-fuse-extrude-cut-circle-13-circle-11.25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-extrude-cut-circle-13-circle-7.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6.5-move-extrude-cut-circle-11.05-circle-7.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6.5-75-0-0",
+            "geometry": "fuse-fuse-extrude-cut-circle-14.5-circle-4.1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-extrude-cut-circle-14.5-circle-4.15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6.5-move-extrude-cut-circle-5-circle-4.15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-75-0-0",
             "tags": [],
             "bom": [],
             "plane": {
@@ -384,7 +384,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-extrude-cut-circle-5-circle-4.15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6.5-75-0-0",
+                "geometry": "move-extrude-cut-circle-5-circle-4.15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-75-0-0",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -439,7 +439,7 @@
             },
             {
               "name": "height",
-              "ioValue": 6.5
+              "ioValue": 2
             }
           ]
         },
@@ -649,7 +649,7 @@
             },
             {
               "name": "height",
-              "ioValue": 16
+              "ioValue": 15
             }
           ]
         }
@@ -1060,8 +1060,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.44266441821247887,
-          "y": 0.3341232227488152,
+          "x": 0.4402673350041771,
+          "y": 0.3260393873085339,
           "uniqueID": "id-292",
           "ioValues": [
             {
@@ -1070,7 +1070,7 @@
             },
             {
               "name": "height",
-              "ioValue": 2
+              "ioValue": 1.4
             }
           ]
         }
