@@ -290,22 +290,6 @@
           ]
         },
         {
-          "atomType": "Extrude",
-          "x": 0.32999164578111945,
-          "y": 0.5973741794310722,
-          "uniqueID": "b907ed4f-69b0-4934-b637-cf557cdb096e",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 6.5
-            }
-          ]
-        },
-        {
           "atomType": "Fusion",
           "x": 0.731829573934837,
           "y": 0.5032822757111597,
@@ -396,7 +380,8 @@
             },
             {
               "name": "height",
-              "ioValue": 15
+              "ioValue": 15,
+              "currentEquation": "15"
             }
           ]
         },
