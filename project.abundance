@@ -135,7 +135,7 @@
         {
           "name": "Shape 3",
           "ioValue": {
-            "geometry": "fuse-fuse-extrude-cut-circle-14.5-circle-4.1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-extrude-cut-circle-14.5-circle-4.15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6.5-move-extrude-cut-circle-5-circle-4.15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-75-0-0",
+            "geometry": "fuse-extrude-cut-circle-5-circle-4.15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-move-extrude-cut-circle-13-circle-4.1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12-0-0-1.5",
             "tags": [],
             "bom": [],
             "plane": {
@@ -261,7 +261,7 @@
             },
             {
               "name": "height",
-              "ioValue": 8
+              "ioValue": 12
             }
           ]
         },
@@ -291,14 +291,14 @@
         },
         {
           "atomType": "Fusion",
-          "x": 0.731829573934837,
-          "y": 0.5032822757111597,
+          "x": 0.7309941520467835,
+          "y": 0.5054704595185996,
           "uniqueID": "db5dcbf9-0a34-4a68-b0db-b24ec102f91b",
           "ioValues": [
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-extrude-cut-circle-13-circle-4.1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-0-0-5",
+                "geometry": "move-extrude-cut-circle-13-circle-4.1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-12-0-0-1.5",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -441,8 +441,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.5388471177944862,
-          "y": 0.4179431072210066,
+          "x": 0.5363408521303258,
+          "y": 0.4135667396061269,
           "uniqueID": "id-688",
           "ioValues": [
             {
@@ -461,7 +461,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 5
+              "ioValue": 1.5
             }
           ]
         },
