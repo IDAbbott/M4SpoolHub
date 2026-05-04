@@ -429,14 +429,14 @@
             },
             {
               "name": "Part Name",
-              "ioValue": "RollerWasher",
-              "currentEquation": "RollerWasher"
+              "ioValue": "M4SpoolWasher",
+              "currentEquation": "M4SpoolWasher"
             }
           ],
           "type": "STEP",
           "resolution": 96,
           "importIndex": 0,
-          "partName": "RollerWasher"
+          "partName": "M4SpoolWasher"
         },
         {
           "atomType": "Move",
@@ -1020,8 +1020,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.08503401360544217,
-          "y": 0.2646420824295011,
+          "x": 0.07727272727272727,
+          "y": 0.612691466083151,
           "uniqueID": "id-289",
           "ioValues": [
             {
@@ -1032,8 +1032,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.09353741496598639,
-          "y": 0.40997830802603036,
+          "x": 0.07272727272727272,
+          "y": 0.7549234135667396,
           "uniqueID": "id-290",
           "ioValues": [
             {
@@ -1044,8 +1044,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.27065767284991565,
-          "y": 0.3056872037914692,
+          "x": 0.2625,
+          "y": 0.6783369803063458,
           "uniqueID": "id-291",
           "ioValues": [
             {
@@ -1060,8 +1060,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.5973266499582289,
-          "y": 0.3894967177242888,
+          "x": 0.5681818181818182,
+          "y": 0.7089715536105032,
           "uniqueID": "id-292",
           "ioValues": [
             {
@@ -1070,14 +1070,14 @@
             },
             {
               "name": "height",
-              "ioValue": 1.4
+              "ioValue": 1.5
             }
           ]
         },
         {
           "atomType": "Move",
-          "x": 0.4536340852130326,
-          "y": 0.3522975929978118,
+          "x": 0.4306818181818182,
+          "y": 0.7024070021881837,
           "uniqueID": "id-698",
           "ioValues": [
             {
@@ -1094,7 +1094,35 @@
             },
             {
               "name": "zDist",
-              "ioValue": 1.5
+              "ioValue": 1.4
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.08636363636363636,
+          "y": 0.36105032822757116,
+          "uniqueID": "id-842",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 135
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.27045454545454545,
+          "y": 0.4223194748358862,
+          "uniqueID": "id-845",
+          "ioValues": [
+            {
+              "name": "retain",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "remove",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         }
@@ -1104,6 +1132,11 @@
           "ap2Name": "retain",
           "ap1ID": "id-289",
           "ap2ID": "id-291"
+        },
+        {
+          "ap2Name": "remove",
+          "ap1ID": "id-289",
+          "ap2ID": "id-845"
         },
         {
           "ap2Name": "remove",
@@ -1124,6 +1157,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-698",
           "ap2ID": "id-292"
+        },
+        {
+          "ap2Name": "retain",
+          "ap1ID": "id-842",
+          "ap2ID": "id-845"
         }
       ],
       "fileTypeVersion": 1
