@@ -1106,7 +1106,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 134
+              "ioValue": 132
             }
           ]
         },
@@ -1175,14 +1175,14 @@
             },
             {
               "name": "Part Name",
-              "ioValue": "OuterHubLip",
-              "currentEquation": "OuterHubLip"
+              "ioValue": "OuterSpacer",
+              "currentEquation": "OuterSpacer"
             }
           ],
           "type": "STEP",
           "resolution": 96,
           "importIndex": 0,
-          "partName": "OuterHubLip"
+          "partName": "OuterSpacer"
         }
       ],
       "allConnectors": [
