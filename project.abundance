@@ -1106,14 +1106,14 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 135
+              "ioValue": 134
             }
           ]
         },
         {
           "atomType": "Difference",
-          "x": 0.27045454545454545,
-          "y": 0.4223194748358862,
+          "x": 0.29659090909090907,
+          "y": 0.3982494529540481,
           "uniqueID": "id-845",
           "ioValues": [
             {
@@ -1125,6 +1125,64 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.08068181818181819,
+          "y": 0.46389496717724293,
+          "uniqueID": "id-853",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 88
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.5090909090909091,
+          "y": 0.43982494529540483,
+          "uniqueID": "id-856",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 4
+            }
+          ]
+        },
+        {
+          "atomType": "Export",
+          "x": 0.634090909090909,
+          "y": 0.2975929978118162,
+          "uniqueID": "id-860",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "File Type",
+              "ioValue": "STEP",
+              "currentEquation": "STEP"
+            },
+            {
+              "name": "Resolution (dpi)",
+              "ioValue": 96
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "OuterHubLip",
+              "currentEquation": "OuterHubLip"
+            }
+          ],
+          "type": "STEP",
+          "resolution": 96,
+          "importIndex": 0,
+          "partName": "OuterHubLip"
         }
       ],
       "allConnectors": [
@@ -1132,11 +1190,6 @@
           "ap2Name": "retain",
           "ap1ID": "id-289",
           "ap2ID": "id-291"
-        },
-        {
-          "ap2Name": "remove",
-          "ap1ID": "id-289",
-          "ap2ID": "id-845"
         },
         {
           "ap2Name": "remove",
@@ -1162,6 +1215,21 @@
           "ap2Name": "retain",
           "ap1ID": "id-842",
           "ap2ID": "id-845"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-845",
+          "ap2ID": "id-856"
+        },
+        {
+          "ap2Name": "remove",
+          "ap1ID": "id-853",
+          "ap2ID": "id-845"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-856",
+          "ap2ID": "id-860"
         }
       ],
       "fileTypeVersion": 1
