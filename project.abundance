@@ -81,14 +81,14 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "extrude-move-cut-circle-43-circle-39-0-0-0-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.4",
+            "geometry": "extrude-move-cut-circle-43-circle-39-0-0-0-{\"origin\":[0,0,1.4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.5",
             "dimension": "3D",
             "tags": [],
             "plane": {
               "origin": [
                 0,
                 0,
-                1.5
+                1.4
               ],
               "xDir": [
                 1,
@@ -1106,7 +1106,8 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 132
+              "ioValue": 132,
+              "currentEquation": "132"
             }
           ]
         },
@@ -1134,7 +1135,8 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 88
+              "ioValue": 88,
+              "currentEquation": "88"
             }
           ]
         },
